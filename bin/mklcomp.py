@@ -59,3 +59,7 @@ def main():
     print(f'[RUNNING] python {sys.argv[1]} --help-all')
     help_all = subprocess.run(['python', sys.argv[1], '--help-all'], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     _parse_help_all(help_all.stdout.decode("utf8"))
+
+
+if __name__ == '__main__':
+    main()

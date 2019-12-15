@@ -16,10 +16,12 @@ setup(name='luigi_completion',
       author='vaaaaanquish',
       author_email='6syun9@gmail.com',
       url='https://github.com/vaaaaanquish/luigi_completion',
-      packages=find_packages(),
       platforms='any',
       classifiers=['Programming Language :: Python :: 3.6'],
-      entry_points={"console_scripts": ["mklcomp = luigi_completion.make_luigi_completion:main"]})
+      packages=['mklcomp'],
+      package_dir={'mklcomp': 'bin'},
+      package_data={'mklcomp': ['bin/*']},
+      entry_points={"console_scripts": ["mklcomp=mklcomp.mklcomp:main"]})
 
 print('\n-------------------------------------------------\n')
 print('  [Please set your shell]')
