@@ -23,6 +23,6 @@ setup(name='luigi_completion',
 
 print('\n-------------------------------------------------\n')
 print('  [Please set your shell]')
-print('    bash:https://github.com/vaaaaanquish/luigi_completion/luigi_completion/luigi_completion.zsh')
-print('    zsh:https://github.com/vaaaaanquish/luigi_completion/luigi_completion/luigi_completion.bash')
+print('    bash:https://github.com/vaaaaanquish/luigi_completion/blob/master/luigi_completion/luigi_completion.bash')
+print('    zsh:https://github.com/vaaaaanquish/luigi_completion/blob/master/luigi_completion/luigi_completion.zsh')
 print('\n-------------------------------------------------\n')

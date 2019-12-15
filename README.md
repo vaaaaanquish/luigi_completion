@@ -8,8 +8,8 @@ completion for luigi on bash, zsh, xonsh
 pip install luigi_completion
 ```
 And set completion script
-- bash: https://github.com/vaaaaanquish/luigi_completion/luigi_completion/luigi_completion.zsh
-- zsh: https://github.com/vaaaaanquish/luigi_completion/luigi_completion/luigi_completion.bash
+- bash: https://github.com/vaaaaanquish/luigi_completion/blob/master/luigi_completion/luigi_completion.bash
+- zsh: https://github.com/vaaaaanquish/luigi_completion/blob/master/luigi_completion/luigi_completion.zsh
 
 
 # Usage
